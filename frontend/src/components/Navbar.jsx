@@ -26,7 +26,7 @@ const Navbar = () => {
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="/resume.pdf" download className="nav-btn">Resume</a>
+      <a href="/23cs191_Vishnu Mohan S pro.pdf" download className="nav-btn">Resume</a>
     </motion.nav>
   );
 };

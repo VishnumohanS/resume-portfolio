@@ -33,7 +33,7 @@ const Hero = () => {
         
         <div className="hero-btn-group">
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
-          <a href="/resume.pdf" download className="btn btn-outline">Resume</a>
+          <a href="/23cs191_Vishnu Mohan S pro.pdf" download className="btn btn-outline">Resume</a>
         </div>
       </div>
     </motion.div>
