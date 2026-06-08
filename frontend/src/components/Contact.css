@@ -1,0 +1,118 @@
+.contact-bento {
+  background: #000; /* Dark contrast card like many Framer templates */
+  color: #fff;
+  border: none;
+}
+
+.contact-bento-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+@media (max-width: 900px) {
+  .contact-bento-content {
+    flex-direction: column;
+  }
+}
+
+.contact-bento-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-huge-title {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.04em;
+}
+
+.contact-bento-subtitle {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  margin-bottom: 3rem;
+  max-width: 400px;
+}
+
+.contact-links-bento {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.bento-social-link {
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  background: #1a1a1a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  border: 1px solid #333;
+}
+
+.bento-social-link:hover {
+  background: #fff;
+  color: #000;
+}
+
+.contact-bento-form-wrapper {
+  flex: 1;
+  max-width: 500px;
+  width: 100%;
+}
+
+.contact-bento-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-bento-form input,
+.contact-bento-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 16px;
+  border: 1px solid #333;
+  background: #111;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.contact-bento-form input:focus,
+.contact-bento-form textarea:focus {
+  outline: none;
+  border-color: #666;
+  background: #1a1a1a;
+}
+
+.bento-submit {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 16px;
+  background: #fff;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.bento-submit:hover {
+  background: #e5e5e5;
+  transform: none;
+}
+
+.bento-status {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.bento-status.success { color: #22c55e; }
+.bento-status.error { color: #ef4444; }
+
+@media (max-width: 600px) {
+  .contact-huge-title { font-size: 3rem; }
+}

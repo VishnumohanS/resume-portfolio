@@ -1,0 +1,20 @@
+.spec-bento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #fefefe, #f4f4f5);
+}
+
+.spec-icon-large {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+}
+
+.spec-desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,35 @@
+.skills-bento {
+  display: flex;
+  flex-direction: column;
+}
+
+.bento-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.skills-grid-bento {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.skill-pill-bento {
+  background: #f4f4f5;
+  color: var(--text-primary);
+  padding: 0.8rem 1.2rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid rgba(0,0,0,0.04);
+  transition: all 0.2s ease;
+}
+
+.skill-pill-bento:hover {
+  background: #fff;
+  border-color: rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transform: translateY(-2px);
+}
